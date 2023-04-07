@@ -14,7 +14,7 @@ function askTokenFirst() {
 }
 
 function askTokenSecond() {
-    readline.question('Please enter your new discord token here, press enter to continue with registered token\n$ ', response => {
+    readline.question('Please enter your new discord token here, press enter to continue with registered token.\n$ ', response => {
         if (!response) return require('./src/startDiscordBot').execute(readline);
         else fs.writeFileSync('./configuration/token.json', `{"token":\"${response}\"}`) && require('./src/startDiscordBot').execute(readline);
     });

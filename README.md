@@ -27,7 +27,7 @@ TermanalCord REQUIRES your bot to have privileged intents enabled.
 
 Once the bot is running, invite it to your Discord server using the OAuth2 URL. You can customize the permissions based on your requirements.
 
-To execute code snippets, simply refer to the [Discord.JS Documentationn](https://discord.js.org/#/docs/discord.js/main/general/welcome).
+To execute code snippets, simply refer to the [Discord.JS Documentation](https://discord.js.org/#/docs/discord.js/main/general/welcome).
 
 ## Contributing
 
